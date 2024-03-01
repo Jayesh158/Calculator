@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+    .Calculator-body{
+        background-color: #3D3D5C;
+        height: 390px;
+        width:  350px;
+        border-radius: 15px;
+        margin: 30px auto;
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .Calculator-screen{
+        background-color: #A1AF77;
+        text-align: right;
+        width: 330px;
+        font-size: 30px;
+        display: block;
+        margin-top: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .Button{    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 220px;
+        flex-wrap: wrap;
+    }
+    .Calculator-button{
+        background-color: white;
+        border-radius: 5px;
+        width: 55px;
+        text-align: center;
+        font-size: 22px;
+        padding: 2px 0;
+        border: 0.8px solid black;
+        margin: 4px;
+        align-items: center
+    }
+    .equal{
+        background-color: #ff6348;
+        height: 75px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="Calculator-body">
+        <input type="text" value="0" class="Calculator-screen">
+        <div class="Button">
+            <button class="Calculator-button">AC</button>
+            <button class="Calculator-button">7</button>
+            <button class="Calculator-button">4</button>
+            <button class="Calculator-button">1</button>
+            <button class="Calculator-button">0</button>
+            <button class="Calculator-button">M+</button>
+            <button class="Calculator-button">8</button>
+            <button class="Calculator-button">5</button>
+            <button class="Calculator-button">2</button>
+            <button class="Calculator-button">.</button>
+            <button class="Calculator-button">/</button>
+            <button class="Calculator-button">9</button>
+            <button class="Calculator-button">6</button>
+            <button class="Calculator-button">3</button>
+            <button class="Calculator-button">%</button>
+            <button class="Calculator-button">x</button>
+            <button class="Calculator-button">-</button>
+            <button class="Calculator-button">+</button>
+            <button class="Calculator-button equal">=</button>
+        </div>
+    </div>
+</body>
+</html>
